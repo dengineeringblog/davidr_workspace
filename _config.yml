@@ -1,0 +1,75 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: David Ramirez
+title:  Automation Engineer | Telecommunications Field Engineer | Software Developer | Diving into Offensive Security
+#email: Your email (optional)
+# email_title: Email (Email title override)
+#phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+
+url: dengineeringblog.github.io
+baseurl: /davidr_workspace
+
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+
+linkedin_username: telecom-engineer-5g-network
+
+
+# About Section
+about_title: My Workspaces
+about_profile_image: images/Profile.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  👋 I’m a <mark>multi-skilled engineer</mark> with a background in Automation Engineering and real-world experience as a Telecom Field Engineer.
+   Alongside my work in telecommunications, I’ve also developed skills in Software Development. I’m currently gaining hands-on experience in Offensive Security, with a focus on Industrial Cybersecurity and AWS.
+  <br>
+  <br>
+
+  I recommend visiting <a href="https://dengineeringblog.github.io/ascend/">Technical Dives</a>, where I share articles originally published on <a href="https://www.linkedin.com/in/telecom-engineer-5g-network/">LinkedIn</a>, covering topics like <mark>Telecommunications</mark>, <mark>Network Engineering</mark>, and <mark>Troubleshooting</mark> cases.
+  <br>
+  <br>
+
+  If you’re a recruiter and want to know more about my background, for <mark>telecom-related roles</mark>, feel free to explore my <a href="https://dengineeringblog.github.io/telecom_cv/">Online CV</a>.
+  <br>
+  <br>
+  I’ll be updating this page soon to include links related to my programming experience as well.
+  <br>
+  <br>
+  If you'd like to connect, feel free to reach out to me on <a href="https://www.linkedin.com/in/telecom-engineer-5g-network/">LinkedIn</a>.
+
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
